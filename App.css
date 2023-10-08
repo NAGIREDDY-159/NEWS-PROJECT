@@ -1,0 +1,30 @@
+.form{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+img{
+  height: 400px;
+  width: 400px;
+}
+.meme {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+/* Bottom left text */
+.bottom {
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+}
+
+/* Top left text */
+.top {
+  padding: 10px;
+  position: absolute;
+  top: 8px;
+  left: 30%;
+}
